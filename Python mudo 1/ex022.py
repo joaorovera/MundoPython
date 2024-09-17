@@ -1,0 +1,7 @@
+nome = str('João Vicente da Rosa da Silveira')
+print(nome.upper())
+print(nome.lower())
+separado = nome.split()
+junto = "".join(separado)
+print(len(junto))
+print(len(separado[0]))

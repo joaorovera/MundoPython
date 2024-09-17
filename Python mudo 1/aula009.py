@@ -1,0 +1,13 @@
+frase = 'Zeca urubu da penha gosta de bauru'
+tamanho = len(frase)
+ocorrencia = frase.count('u')
+mutacao = frase.replace('penha', 'Pinheira')
+# frase.strip remove os espaços inuteis (pode usar l de esquerda e r de direita)
+separacao = frase.split()
+print(separacao)
+juntar = '_'.join(separacao)
+print(juntar)
+print(tamanho)
+print(ocorrencia)
+print(mutacao)
+print(frase.upper())
